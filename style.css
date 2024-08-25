@@ -1,0 +1,471 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+}
+.head-1{
+    height: 100px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-1 > ul{
+    display: flex;
+    list-style: none;
+    gap:30px;
+    font-size: 20px;
+}
+.li{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding: 0 20px;
+}
+
+.logo{
+    height: 100px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.icon{
+    height: 50px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    font-size: 22px;
+}
+
+.icon> p{
+    margin-top: -15px;
+}
+
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: #fd7e14;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+
+}
+.nav-1{
+    height: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 800;
+   
+
+}
+
+.nav-1-1{
+    height: 60px;
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.nav-1-1:hover{
+    background-color: black;
+}
+
+.main{
+    height: 900px;
+    width: 100%;
+    background-image: url(Asset/background.webp);
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.main-1{
+    height: 400px;
+    width: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    border: 1px dashed #fd7e14;
+    box-sizing: border-box;
+    outline: #ffffff solid 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+.main-1-1{
+    font-weight: 900;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.main-1-2{
+    padding: 20px;
+    background-color: #fd7e14;
+    width: 140px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+.about{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    box-sizing: border-box;
+}
+.about-1{
+    width: 50%;
+    font-size: 26px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+.about-1>h1,p{
+    padding-top: 20px;
+}
+.about-1>h3{
+    padding-top: 80px;
+    color: #fd7e14;
+    letter-spacing: 3px;
+}
+.about-2{
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.about-1 > P{
+    font-size: 24px;
+}
+
+
+.design{
+    height: 300px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+   
+
+
+
+}
+.design-1{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+.design-2{
+    height: 12px;
+    width: 90%;
+    background-color:gainsboro;
+}
+.design-2-1{
+    height: 12px;
+    width: 95%;
+    background-color: rgb(0, 0, 0);
+}
+.design-3{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 30px;
+   
+}
+.design-4{
+    height: 12px;
+    width: 90%;
+    background-color:gainsboro;
+}
+.design-4-1{
+    height: 12px;
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+}
+
+.design-5{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.design-6{
+    height: 12px;
+    width: 90%;
+    background-color:gainsboro;
+}
+.design-6-1{
+    height: 12px;
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+}
+
+.product{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+
+.product-1{
+    width: 250px ;
+    height: 250px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.product-1 > img{
+    width: 50%;
+    height: 100px;
+}
+
+.product-1:hover{
+    border-radius: 50%;
+    background-color: #fd7e14;
+    color: white;
+}
+
+.design-2-1:hover{
+    background-color: #fd7e14;
+
+}
+.design-4-1:hover{
+    background-color: #fd7e14;
+}
+.design-6-1:hover{
+    background-color: #fd7e14;
+
+}
+.cake{
+    width: 100%;
+    height: 1200px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-top:1px solid #fd7e14 ; 
+    
+}
+
+.cake-A{
+    width: 90%;
+    height: 500px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left:50px;
+}
+    
+.cake-B {
+    width: 90%;
+    height:500px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 50px;
+    left:50px;  
+}
+   
+.cake-1{
+    width: 25%;
+    height:490px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+}
+.cake-1>h3{
+    padding-top:50px ;
+    font-weight: 800 ;
+    font-size: 24px;
+}
+.cake-1>p{
+    padding-top:10px ;
+    font-weight: 600 ;
+    font-size: 18px;
+}
+
+
+.img-1{
+    height: 310px;
+    width: 80%;
+    display: flex;
+    margin-left: 35px;
+    flex-direction: column;
+    margin-top: 5px;
+    position: relative;
+    background-image: url(Asset/product-1.jpg);
+    background-size: cover;
+}
+
+.cupcake{
+    height: 45px;
+    width: 40%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 290px;
+    left:70px;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.cupcake:hover{
+    background-color: #fd7e14;
+    color: white;
+}
+.img> img{
+    width: 80%;
+    height:250px;
+}
+.img-2{
+    height: 310px;
+    width: 80%;
+    display: flex;
+    margin-left: 35px;
+    flex-direction: column;
+    margin-top: 5px;
+    position: relative;
+    background-image: url(Asset/product-2.jpg);
+    background-size: cover;
+}
+.img-3{
+    height: 310px;
+    width: 80%;
+    display: flex;
+    margin-left: 35px;
+    flex-direction: column;
+    margin-top: 5px;
+    position: relative;
+    background-image: url(Asset/product-3.jpg);
+    background-size: cover;
+}
+.img-4{
+    height: 310px;
+    width: 80%;
+    display: flex;
+    margin-left: 35px;
+    flex-direction: column;
+    margin-top: 5px;
+    position: relative;
+    background-image: url(Asset/product-4.jpg);
+    background-size: cover;
+}
+.cake-2{
+    width: 25%;
+    height:490px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+}
+.cake-2>h3{
+    padding-top:50px ;
+    font-weight: 800 ;
+    font-size: 24px;
+}
+.cake-2>p{
+    padding-top:10px ;
+    font-weight: 600 ;
+    font-size: 18px;
+}
+.img-5{
+    height: 310px;
+    width: 80%;
+    display: flex;
+    margin-left: 35px;
+    flex-direction: column;
+    margin-top: 5px;
+    position: relative;
+    background-image: url(Asset/product-5.jpg);
+    background-size: cover;
+}
+.img-6{
+    height: 310px;
+    width: 80%;
+    display: flex;
+    margin-left: 35px;
+    flex-direction: column;
+    margin-top: 5px;
+    position: relative;
+    background-image: url(Asset/product-6.jpg);
+    background-size: cover;
+}
+.img-7{
+    height: 310px;
+    width: 80%;
+    display: flex;
+    margin-left: 35px;
+    flex-direction: column;
+    margin-top: 5px;
+    position: relative;
+    background-image: url(Asset/product-7.jpg);
+    background-size: cover;
+}
+.img-8{
+    height: 310px;
+    width: 80%;
+    display: flex;
+    margin-left: 35px;
+    flex-direction: column;
+    margin-top: 5px;
+    position: relative;
+    background-image: url(Asset/product-8.jpg);
+    background-size: cover;
+}
